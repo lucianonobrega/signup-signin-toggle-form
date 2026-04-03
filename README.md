@@ -36,7 +36,13 @@ O layout foi adaptado para diferentes tamanhos de tela, garantindo boa usabilida
 
 ## 📸 Preview
 
-*(Adicione aqui uma imagem do projeto)*
+### -Sign Up-
+
+![Preview do projeto](assets/imagens/signUpPage.PNG)
+
+### -Sign In-
+
+![Preview do projeto](assets/imagens/signInPage.PNG)
 
 ## 📦 Como executar
 
