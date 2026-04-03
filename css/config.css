@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --preto:#232323;
+    --branco:#fff;
+    --cinza:#969696;
+    --azul:#1E3A8A;
+    --azul2:#3B82F6;
+    --laranja:#FF6A1A;
+    --laranja2:#FF8C42;
+}

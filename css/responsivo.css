@@ -1,0 +1,37 @@
+@media screen and (max-width:890px) {
+    .containerPai {
+        width: 98%;
+    }
+
+    .bgContainer {
+        background-position: center right;
+    }
+
+    .bgContainer.bgNaruto {
+        background-position: left center;
+    }
+
+    .containerPai .containerFormulario form .googleButtonContainer img {
+        right: 4rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .bgContainer {
+        display: none;
+    }
+
+    .containerFormulario.narutoTheme {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .containerFormulario.sasukeTheme,
+    .containerFormulario.narutoTheme {
+        width: 100%;
+    }
+
+    .containerPai .containerFormulario form .googleButtonContainer img {
+        right: 2.2rem;
+    }
+}

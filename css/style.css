@@ -1,0 +1,261 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: -webkit-linear-gradient(132deg, rgba(249, 104, 35, 1) 0%, rgba(255, 200, 82, 1) 100%);
+    background: linear-gradient(132deg, rgba(249, 104, 35, 1) 0%, rgba(255, 200, 82, 1) 100%);
+}
+
+.gradientSasuke {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(132deg, rgba(26, 53, 123, 1) 0%, rgba(105, 215, 238, 1) 100%);
+    background: linear-gradient(132deg, rgba(26, 53, 123, 1) 0%, rgba(105, 215, 238, 1) 100%);
+    transition: 1s ease-in-out;
+}
+
+.containerPai { 
+    width: 100rem;
+    height: 60rem;
+    border: 0.4rem solid var(--azul);
+    border-radius: 3.2rem;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    transition: 1s ease-in-out;
+}
+
+.containerFormulario,
+.bgContainer {
+    width: 50%;
+    height: 100%;
+    transition: 1s ease-in-out;
+}
+
+.containerPai .containerFormulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form img {
+    width: 5rem;
+}
+
+.tituloFormulario {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.tituloFormulario p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--cinza);
+    padding-top: 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 1.5rem 0.8rem 1.5rem 1rem;
+    outline: none;
+    border: 0.1rem solid var(--cinza);
+    border-radius: 0.8rem;
+}
+
+form input:focus {
+    border: 0.1rem solid var(--azul2);
+}
+
+.inputPasswordContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.inputPasswordContainer img {
+    width: 2rem;
+    position: absolute;
+    right: 0.8rem;
+    cursor: pointer;
+}
+
+.keepLoggedContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.keepLoggedContainer input {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    accent-color: var(--laranja2);
+}
+
+.keepLoggedContainer label {
+    font-size: 1.2rem;
+    color: var(--preto);
+}
+
+form button,
+.googleButtonContainer a {
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--branco);
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: var(--azul);
+}
+
+form button:hover,
+.googleButtonContainer:hover a {
+    border: 0.1rem solid var(--azul2);
+    color: var(--azul2);
+    background-color: var(--branco);
+}
+
+.googleButtonContainer a {
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.orContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 100%;
+    color: var(--cinza);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.orContainer div {
+    width: 50%;
+    height: 0;
+    border-bottom: 0.05rem solid var(--cinza);
+}
+
+.googleButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.googleButtonContainer a {
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--branco);
+    color: var(--preto);
+    border: 0.1rem solid var(--preto);
+}
+
+.googleButtonContainer img {
+    width: 2rem;
+    position: absolute;
+    right: 7.5rem;
+    cursor: pointer;
+}
+
+.createAccountContainer {
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.createAccountContainer a {
+    color: var(--azul);
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.createAccountContainer a:hover {
+    color: var(--azul2);
+}
+
+.bgContainer {
+    position: absolute;
+    background-image: url("../assets/imagens/sasukebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* -----------------Naruto Theme-------------------- */
+
+.containerFormulario.narutoTheme form .createAccountContainer a {
+    color: var(--laranja);
+}
+
+.containerFormulario.narutoTheme form .createAccountContainer a:hover {
+    color: var(--laranja2);
+}
+
+.containerFormulario.narutoTheme form input:focus {
+    border: 0.1rem solid var(--laranja2);
+}
+
+.containerFormulario.narutoTheme form button {
+    background-color: var(--laranja);
+}
+
+.containerFormulario.narutoTheme form button:hover {
+    border: 0.1rem solid var(--laranja2);
+    color: var(--laranja2);
+    background-color: var(--branco);
+}
+
+.containerFormulario.narutoTheme form .googleButtonContainer:hover a {
+    border: 0.1rem solid var(--laranja2);
+    color: var(--laranja2);
+}
+
+.bgContainer.bgNaruto {
+  background-image: url("../assets/imagens/narutobg.png");
+}
+
+/* -----------------Sasuke Theme-------------------- */
+
+.bgContainer.bgSasuke {
+  background-image: url("../assets/imagens/sasukebg.png");
+}
+
+/* ------------------------------------- */
+
+.bordaNarutoContainerPai {
+    border: 0.4rem solid var(--laranja);
+}
+
+.transicao {
+    transform: translateX(100%);
+}
+
+.opacidade0 {
+    opacity: 0;
+    visibility: hidden !important;
+}
+
+.opacidade1 {
+    opacity: 1;
+    visibility: visible !important;
+}

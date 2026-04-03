@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In/Sign Up</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/config.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animacao.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+    <div class="gradientSasuke">
+    </div>
+    <div class="containerPai" id="containerPai">
+        <div class="containerFormulario narutoTheme" id="signInContainer">
+            <form action="#" method="post">
+                <div class="tituloFormulario">
+                    <h1>Sign in</h1>
+                    <p>Please login to continue to your account.</p>
+                </div>
+                <input type="email" placeholder="Email" required>
+                <div class="inputPasswordContainer">
+                    <input type="password" placeholder="Password" required class="inputPassword">
+                    <img src="assets/imagens/olho.png" class="olho">
+                </div>
+                <div class="keepLoggedContainer">
+                    <input type="checkbox" id="checkBox">
+                    <label for="checkBox">Keep me logged in</label>
+                </div>
+                <button type="button" id="btnSignIn">Sign in</button>
+                <div class="orContainer">
+                    <div></div>
+                    <p>or</p>
+                    <div></div>
+                </div>
+                <div class="googleButtonContainer">
+                    <a href="https://accounts.google.com/" target="_blank" rel="noopener noreferrer">Sign in with Google</a>
+                    <img src="assets/imagens/google.png">
+                </div>
+                <div class="createAccountContainer">
+                    <p>Need an account? <a href="#" id="signUpLink">Sign up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="containerFormulario sasukeTheme" id="signUpContainer">
+            <form action="#" method="post">
+                <div class="tituloFormulario">
+                    <h1>Sign up</h1>
+                    <p>Sign up to enjoy the feature of Revolutie.</p>
+                </div>
+                <input type="text" placeholder="Your Name" required>
+                <input type="date" placeholder="Date of Birth" required>
+                <input type="email" placeholder="Email" required>
+                <div class="inputPasswordContainer">
+                    <input type="password" placeholder="Password" required class="inputPassword">
+                    <img src="assets/imagens/olho.png" class="olho">
+                </div>
+                <button type="button" id="btnSignUp">Sign up</button>
+                <div class="orContainer">
+                    <div></div>
+                    <p>or</p>
+                    <div></div>
+                </div>
+                <div class="googleButtonContainer">
+                    <a href="https://accounts.google.com/" target="_blank" rel="noopener noreferrer" class="btnGoogle">Sign in with Google</a>
+                    <img src="assets/imagens/google.png">
+                </div>
+                <div class="createAccountContainer">
+                    <p>Already have an account? <a href="#" id="signInLink">Sign in</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="bgContainer">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
